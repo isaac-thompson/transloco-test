@@ -1,0 +1,6 @@
+{
+  "languageChoice": "English",
+  "title": "### FRENCH ###",
+  "welcome": "Bienvenue",
+  "welcomeText": "Bonjour {{ name }}"
+}

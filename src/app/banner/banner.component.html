@@ -1,0 +1,7 @@
+<ng-container *transloco="let translate">
+  <mat-toolbar role="banner" color="primary">
+    <span>{{translate('welcome')}}</span>
+    <div class="spacer"></div>
+    <button class="btnControl" (click)="switchLanguage()" mat-raised-button>{{translate('languageChoice')}}</button>
+  </mat-toolbar>
+</ng-container>

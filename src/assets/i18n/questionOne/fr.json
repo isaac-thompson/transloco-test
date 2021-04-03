@@ -1,0 +1,34 @@
+{
+  "question": {
+    "Number": 1,
+    "title": "En ce qui concerne les classes de service:",
+    "description": "Aide les équipes à optimiser l'exécution des éléments en retard. Les classes de service permettent d'établir la priorité des éléments en retard en fonction de leur coût de retard (CdR).",
+    "subTitle": "Classes de service:"
+  },
+  "answer": {
+    "a": {
+      "text": "High (100) - The proposal includes references to open protocols, discoverability and other enablers such as generic components that will allow the solution to be reused, connected and scaled.",
+      "classesOfServiceScore": 100,
+      "classesOfServiceWeightedValue": 0.25,
+      "ClassesOfServiceWeightedCalculation": 25
+    },
+    "b": {
+      "text": "Medium (75) - The proposal includes some reference to open protocols or other enablers for the solution to be reused, connected and scaled.",
+      "classesOfServiceScore": 75,
+      "classesOfServiceWeightedValue": 0.25,
+      "ClassesOfServiceWeightedCalculation": 19
+    },
+    "c": {
+      "text": "Low (25)-  The proposal includes some low impact references to open protocols or other enablers, but nothing substantive.",
+      "classesOfServiceScore": 25,
+      "classesOfServiceWeightedValue": 0.25,
+      "ClassesOfServiceWeightedCalculation": 6
+    },
+    "d": {
+      "text": "Undefined/None (0) -The proposal does not include references to open protocols, discoverability or other enablers to enhance scalability. Proposal may include references to niche software or restrictive vendor agreements.",
+      "classesOfServiceScore": 0,
+      "classesOfServiceWeightedValue": 0.25,
+      "ClassesOfServiceWeightedCalculation": 0
+    }
+  }
+}
