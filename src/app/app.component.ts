@@ -8,7 +8,7 @@ import {Title} from '@angular/platform-browser';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-
+title = 'cic-scorecard';
   constructor(private readonly translocoService: TranslocoService, private titleService: Title) {
     this.translocoService.selectTranslate('title').subscribe(value => console.log(value));
   }

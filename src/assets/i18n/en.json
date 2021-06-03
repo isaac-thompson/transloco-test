@@ -1,6 +1,6 @@
 {
   "languageChoice": "Français",
   "title": "### ENGLISH ###",
-  "welcome": "Welcome",
+  "tool-bar-title": "VAC Client Systems Initiative - Issues Score Card",
   "welcomeText": "Hello {{ name }}"
 }

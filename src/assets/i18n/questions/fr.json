@@ -1,0 +1,64 @@
+{
+  "q1": {
+    "title": "En ce qui concerne les classes de service",
+    "description": "Aide les équipes à optimiser l'exécution des éléments en retard. Les classes de service permettent d'établir la priorité des éléments en retard en fonction de leur coût de retard (CdR).",
+    "subTitle": "Classes de service",
+    "answer": {
+      "a": {
+        "text": "Élevé (100) - Urgent : Éléments essentiels et hautement prioritaires qui requièrent un traitement immédiat. Les éléments urgents ont préséance sur d'autres travaux. Les travaux en cours peuvent être restreints.",
+        "classesOfServiceScore": 100,
+        "classesOfServiceWeightedValue": 0.25,
+        "ClassesOfServiceWeightedCalculation": 25
+      },
+      "b": {
+        "text": "Moyen (75) - Date à respecter : Éléments qui entraînent un coût de retard important s'ils ne sont pas livrés à la date prévue. Il faut donc leur accorder la priorité assez tôt pour être certain de respecter le délai établi. ",
+        "classesOfServiceScore": 75,
+        "classesOfServiceWeightedValue": 0.25,
+        "ClassesOfServiceWeightedCalculation": 19
+      },
+      "c": {
+        "text": "Faible (25) - Délai normal : Éléments qui n'ont pas une date de délai de livraison prévue ou un sens d'urgence et sont généralement traités selon le principe du « premier entré, premier sorti ». Les éléments sont sélectionnés approximativement selon la date de réception. La plupart des travaux devraient figurer dans cette catégorie.",
+        "classesOfServiceScore": 25,
+        "classesOfServiceWeightedValue": 0.25,
+        "ClassesOfServiceWeightedCalculation": 6
+      },
+      "d": {
+        "text": "Non défini/aucun (0) - Immatériel : Bon à avoir / éléments utiles mais le coût du retard est faible ou inexistant à court terme. Cela inclut les types de travaux de maintenance/d’optimisation.",
+        "classesOfServiceScore": 0,
+        "classesOfServiceWeightedValue": 0.25,
+        "ClassesOfServiceWeightedCalculation": 0
+      }
+    }
+  },
+  "q2": {
+    "title": "En ce qui concerne les résultats:",
+    "description": "L'impact positif que l'initiative aura sur les utilisateurs, les lignes d'affaires, l'exécution des programmes, les TI ou un secteur spécifique.",
+    "subTitle": "Justification des résultats",
+    "answer": {
+      "a": {
+        "text": "Élevé (100) - Incidence importante liée à un changement transformationnel ou de paradigme.",
+        "outcomesScore": 100,
+        "outcomesWeightedValue": 0.13,
+        "outcomesWeightedCalculation": 13
+      },
+      "b": {
+        "text": "Moyen (75) - Incidence positive modérée. ",
+        "outcomesScore": 75,
+        "outcomesWeightedValue": 0.13,
+        "outcomesWeightedCalculation": 10
+      },
+      "c": {
+        "text": "Faible (25) - Certaines améliorations ciblées et concrètes.",
+        "outcomesScore": 25,
+        "outcomesWeightedValue": 0.13,
+        "outcomesWeightedCalculation": 3
+      },
+      "d": {
+        "text": "Non défini/aucun (0) - L'avantage pour l'utilisateur final n'a pas été défini ou n'existe pas.",
+        "outcomesScore": 0,
+        "outcomesWeightedValue": 0.13,
+        "outcomesWeightedCalculation": 0
+      }
+    }
+  }
+}

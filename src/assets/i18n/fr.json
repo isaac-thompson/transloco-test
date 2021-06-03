@@ -1,6 +1,6 @@
 {
   "languageChoice": "English",
   "title": "### FRENCH ###",
-  "welcome": "Bienvenue",
+  "tool-bar-title": "Systèmes-clients ACC - Carte de pointage d'initiative de problème",
   "welcomeText": "Bonjour {{ name }}"
 }

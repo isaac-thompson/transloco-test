@@ -1,0 +1,28 @@
+<ng-container *transloco="let translate">
+<mat-card class="card-style">
+  <mat-card-title>{{ translate('questions.q1.title') }}</mat-card-title>
+  <mat-card-subtitle>{{ translate('questions.q1.description') }}</mat-card-subtitle>
+
+
+  <mat-form-field style="width:95%" appearance="fill">
+    <mat-label>Choose most suitable answer</mat-label>
+    <mat-select style="width:100%">
+      <mat-option>{{ translate('questions.q1.answer.a.text') }}</mat-option>
+      <mat-option>{{ translate('questions.q1.answer.b.text') }}</mat-option>
+      <mat-option>{{ translate('questions.q1.answer.c.text') }}</mat-option>
+      <mat-option>{{ translate('questions.q1.answer.d.text') }}</mat-option>
+<!--      <mat-option style="width:90%" *ngFor="let question of questions">-->
+<!--        {{question.viewValue}}-->
+<!--      </mat-option>-->
+    </mat-select>
+  </mat-form-field>
+
+  <h1>{{ translate('questions.q2.title') }}</h1>
+
+</mat-card>
+</ng-container>
+
+
+
+
+
